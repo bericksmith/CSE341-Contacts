@@ -27,7 +27,7 @@
     "/contacts/": {
       "get": {
         "tags": [
-          "Contacts - Get All"
+          "Contact Get All"
         ],
         "description": "",
         "produces": [
@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Contact - Create New"
+          "Contact Create New"
         ],
         "description": "",
         "parameters": [
@@ -83,7 +83,7 @@
     "/contacts/{id}": {
       "get": {
         "tags": [
-          "Contacts - Get Single"
+          "Contact Get Single"
         ],
         "description": "",
         "produces": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Contact - Update"
+          "Contact Update"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Contact - Delete"
+          "Contact Delete"
         ],
         "description": "",
         "parameters": [
