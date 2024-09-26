@@ -34,6 +34,10 @@ DELETE http://localhost:3000/contacts/66f1966f30b68094d7639e72 HTTP/1.1
 
 ###
 
+GET http://localhost:3000/contacts/66eb9844149f40e400af77f7 HTTP/1.1
+
+###
+
 GET https://cse341-contacts-iqm6.onrender.com/contacts HTTP/1.1
 
 ###
