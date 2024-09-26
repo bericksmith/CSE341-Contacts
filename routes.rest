@@ -34,12 +34,39 @@ DELETE http://localhost:3000/contacts/66f1966f30b68094d7639e72 HTTP/1.1
 
 ###
 
-GET http://localhost:3000/contacts/66eb9844149f40e400af77f7 HTTP/1.1
+// External Routes
 
-###
+### Get all contacts
+GET https://cse341-contacts-iqm6.onrender.com HTTP/1.1
 
-GET https://cse341-contacts-iqm6.onrender.com/contacts HTTP/1.1
-
-###
-
+### Get Contact by id
 GET https://cse341-contacts-iqm6.onrender.com/contacts/66eb9844149f40e400af77f7 HTTP/1.1
+
+### Create contact
+POST https://cse341-contacts-iqm6.onrender.com/contacts/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Katie",
+  "lastName": "Smith",
+  "email": "katiesmith@gmail.com",
+  "favoriteColor": "Green",
+  "birthday": "09/23/1993"
+}
+
+### Put Contact
+PUT https://cse341-contacts-iqm6.onrender.com/contacts/66edd38e02f2a772682a05c7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Colby",
+    "lastName": "Smith",
+    "email": "davidcolbysmith@gmail.com",
+    "favoriteColor": "Orange",
+    "birthday": "09/23/2001"
+}
+
+### Delete Contact
+DELETE https://cse341-contacts-iqm6.onrender.com/contacts/66f1966f30b68094d7639e72 HTTP/1.1
+
+###
