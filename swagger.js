@@ -2,11 +2,11 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
     info: {
-        title: 'Users Api',
-        description: 'Users Api'
+        title: 'Contacts Project Api - CSE 341 ',
+        description: 'Contacts Api'
     },
-    host: 'localhost:3000',
-    schemes: ['http', 'https']
+    host: 'cse341-contacts-iqm6.onrender.com',
+    schemes: ['https']
 };
 
 const outputFile = './swagger.json';
