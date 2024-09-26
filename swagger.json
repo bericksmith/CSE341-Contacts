@@ -27,7 +27,7 @@
     "/contacts/": {
       "get": {
         "tags": [
-          "Contacts Get All"
+          "Contact Get All"
         ],
         "description": "",
         "produces": [
@@ -83,7 +83,7 @@
     "/contacts/{id}": {
       "get": {
         "tags": [
-          "Contacts Get Single"
+          "Contact Get Single"
         ],
         "description": "",
         "produces": [
