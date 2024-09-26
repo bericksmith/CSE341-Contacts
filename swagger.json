@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users Api",
-    "description": "Users Api",
+    "title": "Contacts Project Api - CSE 341 ",
+    "description": "Contacts Api",
     "version": "1.0.0"
   },
   "host": "cse341-contacts-iqm6.onrender.com",
@@ -27,7 +27,7 @@
     "/contacts/": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts - Get All"
         ],
         "description": "",
         "produces": [
@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "Contact - Create New"
         ],
         "description": "",
         "parameters": [
@@ -83,7 +83,7 @@
     "/contacts/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts - Get Single"
         ],
         "description": "",
         "produces": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Contact - Update"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Contact - Delete"
         ],
         "description": "",
         "parameters": [
