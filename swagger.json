@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Contact Create New"
+          "Contacts Create New"
         ],
         "description": "",
         "parameters": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Contact Update"
+          "Contacts Update"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Contact Delete"
+          "Contacts Delete"
         ],
         "description": "",
         "parameters": [
