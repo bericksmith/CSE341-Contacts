@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Contacts Project Api - CSE 341 ",
+    "title": "Contacts Project Api CSE 341 ",
     "description": "Contacts Api",
     "version": "1.0.0"
   },
